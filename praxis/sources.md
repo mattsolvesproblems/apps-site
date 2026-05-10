@@ -86,13 +86,13 @@ The name *Praxis* and much of the app's framing comes from Aristotle's distincti
 ### Relationships
 
 - **Close relationships and longevity** — Harvard Study of Adult Development (1939–present), the longest-running study of adult life. [Official site](https://www.adultdevelopmentstudy.org/) · Robert Waldinger and Marc Schulz, *The Good Life* (2023).
-- **Friendship maintenance frequency** — Robin Dunbar (Oxford), research on social network layers. The 5-layer "closest friends" tier requires roughly weekly contact. See Dunbar's [research page](https://www.psy.ox.ac.uk/people/robin.dunbar).
+- **Friendship maintenance frequency** — Robin Dunbar (Oxford), research on social network layers. The 5-layer "closest friends" tier requires roughly weekly contact. See Dunbar's [Oxford faculty page](https://www.psy.ox.ac.uk/people/robin-dunbar).
 - **Couple relationships and rituals of connection** — The Gottman Institute. [Official site](https://www.gottman.com/) · John Gottman & Nan Silver, *The Seven Principles for Making Marriage Work*. Gottman's research recommends daily 20-minute connection rituals and weekly date nights.
 
 ### Cleaning, health, and household
 
-- **Clutter and stress** — Saxbe & Repetti (2010), *"No Place Like Home: Home Tours Correlate With Daily Patterns of Mood and Cortisol,"* Personality and Social Psychology Bulletin 36(1), 71–81. [SAGE abstract](https://journals.sagepub.com/doi/10.1177/0146167209352864) · UCLA Center on Everyday Lives of Families (CELF). [CELF homepage](https://celf.anthro.ucla.edu/)
-- **Food safety surface cleaning** — FDA Food Code 2022, Chapter 4. [FDA Food Code page](https://www.fda.gov/food/fda-food-code/food-code-2022). The 4-hour rule for food-contact surfaces is in §4-602.11.
+- **Clutter and stress** — Saxbe & Repetti (2010), *"No Place Like Home: Home Tours Correlate With Daily Patterns of Mood and Cortisol,"* Personality and Social Psychology Bulletin 36(1), 71–81. [SAGE abstract](https://journals.sagepub.com/doi/10.1177/0146167209352864) · [Open-access PDF on the UCLA Repetti Lab site](https://repettilab.psych.ucla.edu/wp-content/uploads/sites/302/2023/03/no-place-like-home.pdf) · UCLA Center on Everyday Lives of Families (CELF). [CELF homepage](https://www.celf.ucla.edu/)
+- **Food safety surface cleaning** — FDA Food Code 2022, Chapter 4. [Download the full Food Code 2022 PDF (FDA)](https://www.fda.gov/media/164194/download). The 4-hour rule for food-contact surfaces handling Time/Temperature Control for Safety foods is in §4-602.11.
 - **Household germ contamination** — NSF International Household Germ Studies. [Germiest items in the home](https://www.nsf.org/consumer-resources/articles/clean-germiest-home-items)
 - **Allergens and dust mites** — Asthma and Allergy Foundation of America. [Dust Mite Allergy](https://aafa.org/allergies/types-of-allergies/insect-allergy/dust-mite-allergy/) — recommends weekly vacuuming with a HEPA filter.
 - **Mold and respiratory health** — Centers for Disease Control. [Mold and Your Health](https://www.cdc.gov/mold-health/about/index.html)
@@ -103,7 +103,7 @@ The name *Praxis* and much of the app's framing comes from Aristotle's distincti
 
 - **Flossing and gum health** — American Dental Association. [Floss page](https://www.ada.org/resources/ada-library/oral-health-topics/floss). The ADA recommends daily interdental cleaning. The underlying evidence (per Cochrane systematic reviews) shows a small but statistically significant short-term reduction in gingivitis when flossing is added to brushing.
 - **Skincare** — American Academy of Dermatology. [Skin Care Basics](https://www.aad.org/public/everyday-care/skin-care-basics)
-- **Dental visits** — American Dental Association. [Dental Visits](https://www.mouthhealthy.org/all-topics-a-z/dental-visits)
+- **Dental visits** — American Dental Association. [Common Questions About Going to the Dentist (MouthHealthy/ADA)](https://www.mouthhealthy.org/dental-care/questions-about-going-to-the-dentist)
 
 ### Fasting
 
@@ -112,8 +112,8 @@ The name *Praxis* and much of the app's framing comes from Aristotle's distincti
 
 ### Finance
 
-- **Expense tracking and overspending** — Meta-analyses of self-control strategies in personal finance show daily expense tracking reduces monthly spending by approximately $228–$236 median. See [University of Wisconsin working paper on expense tracking](https://asset.library.wisc.edu/1711.dl/63XZYPDLKMY638S/R/file-908a3.pdf).
-- **Budget review** — Consumer Financial Protection Bureau. [Budgeting guidance](https://www.consumerfinance.gov/about-us/blog/want-make-your-money-grow-faster-budget/)
+- **Expense tracking and overspending** — The general principle that tracking spending reduces overspending through awareness effects is well-supported in behavioral finance literature. For consumer-facing tools and guidance, see the CFPB's [Track your spending blog post](https://www.consumerfinance.gov/about-us/blog/track-your-spending-with-this-easy-tool/) and [Spending tracker worksheet (PDF)](https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_spending_tracker_2018-11_ADA.pdf). For the broader research foundation on self-control and beneficial habits, see Galla & Duckworth (2015), [*"More than resisting temptation: Beneficial habits mediate the relationship between self-control and positive life outcomes"*](https://pubmed.ncbi.nlm.nih.gov/25643222/), Journal of Personality and Social Psychology 109(3), 508–525.
+- **Budget review** — Consumer Financial Protection Bureau. [Budgeting: How to create a budget and stick with it](https://www.consumerfinance.gov/about-us/blog/budgeting-how-to-create-a-budget-and-stick-with-it/)
 
 ### Stoic concepts in Lumen's prompt
 
@@ -122,7 +122,7 @@ The on-device AI inside Praxis (Lumen) is built around several Stoic concepts:
 - **Prosochē** (προσοχή — attention, mindfulness) — Epictetus, *Discourses* throughout.
 - **Askēsis** (ἄσκησις — practice, training) — see Pierre Hadot, *Philosophy as a Way of Life* (1995) for the canonical modern treatment.
 - **Dichotomy of control** — Epictetus, *Enchiridion* 1.1.
-- ***Amor fati*** (love of fate) — Friedrich Nietzsche, *Ecce Homo* and *The Gay Science* §276. *Amor fati* is technically Nietzsche's concept rather than a classical Stoic one, though it sits in the same family of acceptance-of-reality philosophies.
+- ***Amor fati*** (love of fate) — Friedrich Nietzsche, *Ecce Homo* and *The Gay Science* §276. *Amor fati* is technically Nietzsche's concept rather than a classical Stoic one, though it sits in the same family of acceptance-of-reality philosophies. [Read *Ecce Homo* on Project Gutenberg (Ludovici translation)](https://www.gutenberg.org/files/52190/52190-h/52190-h.htm)
 
 ---
 
