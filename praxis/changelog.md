@@ -11,6 +11,11 @@ A record of what's changed in Praxis since launch. Updates ship as over-the-air 
 
 ---
 
+## 2026-05-10
+
+### Fixed
+- **Long-duration practice timer no longer says "End Fast."** Long-duration practices include fasting but also things like laundry, slow cooking, sleep tracking, and any other practice you'd time over hours instead of minutes. The button now says "Done" (matching short-duration practices), and the header subtitle says "Timing: <name>" instead of "Fasting: <name>." User-reported via the Do Laundry practice.
+
 ## 2026-05-09
 
 ### Added
