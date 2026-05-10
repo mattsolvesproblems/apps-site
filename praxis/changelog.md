@@ -17,6 +17,7 @@ A record of what's changed in Praxis since launch. Updates ship as over-the-air 
 - **Tab-based filters on the Focus screen.** Narrow your list by Type, Area, Zone, or Room. Tap a filter tab to see options; selections combine across tabs ("Health area + 30 minutes," "Cleaning type + Kitchen room," etc.). Time and filters share the same tab bar; Time is the default.
 - **[Public sources page](sources)** listing every classical quote and every frequency recommendation in the app, with links to primary sources. Linked from the bottom of the About screen.
 - **This page.** Public changelog at [praxis/changelog](changelog) — recent updates and changes since launch. Linked from the bottom of the About screen alongside the Sources link.
+- **Tap the version footer in the menu** to open this changelog. ("View recent changes" link added under the version + OTA info.) Long-press still shows the diagnostic info with an option to share for support emails.
 
 ### Changed
 - **Replaced apocryphal classical quotes** in the practice-completion screen with verified passages from primary sources. The Confucius "go slowly" line isn't actually in the *Analects*; the Buddha "do not dwell on the past" quote isn't in the Pali Canon. Replaced both with real passages — Confucius's *"Learning without thinking is labor lost"* (Analects 2.15) and the Buddha's *Bhaddekaratta Sutta* (Majjhima Nikaya 131). Corrected a few Marcus Aurelius and Epictetus attributions while we were at it.
