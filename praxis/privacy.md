@@ -9,6 +9,8 @@ description: Privacy Policy for the Praxis iOS app
 
 Praxis is a habit and practice tracker built by Matt Peterson. This page describes what data Praxis collects, where it goes, and the choices you have.
 
+[Get Praxis on the App Store ↗](https://apps.apple.com/us/app/praxis-practice-is-the-point/id6762659714)
+
 ## The short version
 
 Praxis is a fully on-device app. There are no Praxis servers. We do not collect, store, or transmit your personal data to ourselves or to third parties. Everything you record in Praxis stays on your iPhone.

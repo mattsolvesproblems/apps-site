@@ -1,14 +1,14 @@
 # apps-site
 
-Privacy policies and marketing pages for [Praxis](https://apps.apple.com/) and related apps by Matt Peterson, served via GitHub Pages.
+Privacy policies and marketing pages for [Praxis](https://apps.apple.com/us/app/praxis-practice-is-the-point/id6762659714) and related apps by Matt Peterson, served via GitHub Pages.
 
 ## Structure
 
-Each app gets its own subfolder. Privacy policy lives at `<app>/privacy.md`, which becomes `https://mattsolvesproblems.github.io/apps-site/<app>/privacy` once Pages is live.
+Each app gets its own subfolder. Pages live at `<app>/<page>.md` and become `https://mattsolvesproblems.github.io/apps-site/<app>/<page>` once Pages is live.
 
-| App     | Privacy policy                                                                |
-|---------|-------------------------------------------------------------------------------|
-| Praxis  | [praxis/privacy](https://mattsolvesproblems.github.io/apps-site/praxis/privacy) |
+| App | App Store | Pages hosted here |
+|---|---|---|
+| **Praxis** | [App Store](https://apps.apple.com/us/app/praxis-practice-is-the-point/id6762659714) | [privacy](https://mattsolvesproblems.github.io/apps-site/praxis/privacy) · [support](https://mattsolvesproblems.github.io/apps-site/praxis/support) · [sources](https://mattsolvesproblems.github.io/apps-site/praxis/sources) |
 
 ## Why this is a separate repo
 

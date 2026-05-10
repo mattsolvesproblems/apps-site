@@ -7,6 +7,8 @@ description: Support and contact info for the Praxis iOS app
 
 Praxis is a habit and practice tracker for iOS, built by Matt Peterson. If something's broken, confusing, or you have an idea, this is where to start.
 
+[Get Praxis on the App Store ↗](https://apps.apple.com/us/app/praxis-practice-is-the-point/id6762659714)
+
 ## What you'll find here
 
 - [Core concepts](#core-concepts) — practices, cadence, scoring, and how the app organizes your life

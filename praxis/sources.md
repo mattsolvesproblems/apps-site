@@ -7,6 +7,8 @@ description: Sources and citations for quotes, philosophical references, and fre
 
 The quotes and frequency recommendations in Praxis are drawn from real classical texts and real research. This page lists the primary sources and links to each one.
 
+[Get Praxis on the App Store ↗](https://apps.apple.com/us/app/praxis-practice-is-the-point/id6762659714)
+
 ## Why this page exists
 
 Praxis is built on the idea that small repeated actions matter. The same standard applies to what the app says: every claim should be sourceable, every classical quote correctly attributed, every recommendation traceable to real evidence.
