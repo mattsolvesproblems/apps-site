@@ -13,8 +13,16 @@ A record of what's changed in Praxis since launch. Updates ship as over-the-air 
 
 ## 2026-05-10
 
+### Added
+- **Two new practice toggles: "Runs in the background" and "Has target duration."** The old "Long-duration practice" toggle conflated two unrelated things — whether a timer runs in parallel with another practice, and whether it should fire a notification when the duration is reached. Splitting them lets you mark "Do Laundry" as a background practice without it pestering you with a "target reached" notification (its 1-hour estimate is informational, not a goal). Fasting practices and other goal-oriented durations turn both toggles on. Notifications now only fire for practices you've explicitly marked as having a target duration.
+- **Symmetric collision alerts.** Trying to start a second active practice while one is timing now reads *"Active practice in progress: <name> is already running. Finish or end it before starting another."* Same shape as the existing background-practice alert, both reference the offending practice by name.
+
+### Changed
+- **Unified timer display to hh:mm:ss across all practices.** Active timers used to show MM:SS (e.g. `01:30`), background timers used to show "Nh MMm" (e.g. `0h 02m`). One consistent format means a 90-second timer and a 4-hour fast read identically — `00:01:30` and `04:00:00`.
+
 ### Fixed
 - **Long-duration practice timer no longer says "End Fast."** Long-duration practices include fasting but also things like laundry, slow cooking, sleep tracking, and any other practice you'd time over hours instead of minutes. The button now says "Done" (matching short-duration practices), and the header subtitle says "Timing: <name>" instead of "Fasting: <name>." User-reported via the Do Laundry practice.
+- **Fixed a crash path in icon-theme syncing.** On iOS 26.3.1 a small number of devices saw an unhandled error when the home-screen icon tried to update for a theme switch. The icon sync is best-effort cosmetic — the fix wraps it so it can never crash, and falls back silently if the platform doesn't have the relevant alternate icons available.
 
 ## 2026-05-09
 
