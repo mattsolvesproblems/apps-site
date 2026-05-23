@@ -11,6 +11,31 @@ A record of what's changed in Praxis since launch. Updates ship as over-the-air 
 
 ---
 
+## 2026-05-23
+
+A big update — refreshed setup flow, the multi-log practice fixes a few of you reported, and a substantial reorganization behind the scenes.
+
+### Added
+- **"In progress" status for multi-log practices.** A "25 pushups daily" practice that you'd done 12 of used to still show a red "Must do" badge — looked like you hadn't done anything when you'd actually done about half. Now it shows a yellow "In progress" badge with "12/25 today" so you can see at a glance where you are.
+- **Counts chart tab for multi-log practices.** Same Stats screen that has Intervals and Durations now has a Counts tab — a daily-totals view of how many you've logged each day, with your target line overlaid. Compare mode works here too.
+- **Compare mode on histograms.** Toggle to split your data in half (older vs newer) and see if your distribution is shifting — getting faster, more consistent, etc. Available on intervals, durations, and counts.
+- **Setup wizard now starts with life areas.** Pick what matters to you (Home, Wellness, Mind, Personal Care, etc.) before drilling into specific rooms. The Rooms step only appears if you selected Home — non-spatial users skip it entirely. Sample data loaded into the wizard is now transparent: it shows you what's possible without counting against the free-tier cap.
+
+### Changed
+- **Free tier is now a cap on what you create**, instead of a time/usage threshold. You get **5 practices, 2 life areas, 4 rooms, 2 zones, and 1 Flow** on the free tier. If you already have more than that, you keep all of it — the cap only matters when you try to add more. Unlock removes all caps, and Lumen (the chat-style insights) is also part of the unlock. The rule-based insight cards remain free.
+- **Lumen insights now use a deterministic detector engine** instead of running an on-device language model for the core narration. Validated against 5 real-world datasets — no false positives. Faster to generate (no model inference), more reliable, and easier to extend with new pattern types. The model still handles your text notes where genuine prose adds value.
+- **Practice Details screen rearranged.** Sections (Where → What kind → Time & Logging → Frequency → Links → Season) with horizontal dividers and consistent spacing. Easier to scan for what you're trying to edit.
+- **Picking a room no longer auto-appends its name to the practice name.** "Sweep" no longer becomes "Sweep Kitchen" when you select Kitchen. The room is rendered right next to the practice name on every card already, so the suffix was just clutter.
+- **Sample practices are now preview-only on the free tier.** Loaded sample data shows everything you can do with the app — stats, charts, structure — but you can't edit names, frequencies, or completion entries until you unlock. Deleting samples is still allowed (it doesn't bypass anything).
+
+### Fixed
+- **Multi-log practices were saving count=1 even when you tapped Save on a full session.** A "20 pushups daily" practice you'd just done all of would record as "1 pushup logged" — so the day never hit target and the practice stayed flagged as never done. The completion dialog now defaults to your full target (the common case), with chips and a custom field for partial sessions. A one-time migration also recomputes the "last done" date on every existing practice so historical data heals itself.
+- **Stale "last done" values after changing a practice's target.** Bumping a practice from "1× daily" to "2× daily" left the previous completion marker in place, so the practice could show "Too soon" even when you hadn't done the new amount. Fixed with the same migration above.
+- **A handful of screens were silently freezing on certain taps.** Tapping "Ask Lumen" on a practice's stats modal, trying to edit a sample practice's frequency or duration, and the import wizard's overflow banner could all leave the app stuck. The unlock dialog now properly takes over instead of disappearing into iOS's modal stack. If you ran into one of these freezes, this update resolves it.
+- **"Free tier full" on the setup wizard's Areas step right after a fresh reset.** A missing line in the reset flow was leaving the in-memory list of life areas intact. Fixed.
+- **Histogram median markers were drifting from their true positions.** The triangle that marks your median value now sits at the right spot within its bin (proportional positioning), and axis labels show actual bin boundaries instead of bin centers — so the numbers match what you see.
+- **"A little goes a long way" was clipping on Android.** The last word was getting cut off on some screen sizes. Fixed.
+
 ## 2026-05-10
 
 ### Added
