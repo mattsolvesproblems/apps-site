@@ -11,9 +11,18 @@ A record of what's changed in Praxis since launch. Updates ship as over-the-air 
 
 ---
 
-## 2026-05-23
+## 2026-06-09
 
-A big update — refreshed setup flow, the multi-log practice fixes a few of you reported, and a substantial reorganization behind the scenes.
+The "small consistent effort" model now applies to time-based goals, not just rep counts.
+
+### Added
+- **Time-target practices count partial sessions toward your daily goal.** If you aim to read 60 minutes a day and do two 30-minute sessions, they now add up to hit the goal — instead of the first session marking the whole day done. Same as how "25 pushups" already summed multiple logs, now applied to minutes.
+- **"In rhythm" status for time goals.** Read 40 minutes yesterday toward a 60-minute goal and nothing yet today? The card reads "In rhythm" with "Recent: 40 min/day avg" instead of flagging you as overdue. Showing up below target is recognized, not penalized — and genuinely stopping for a week still surfaces normally.
+- **Daily minutes chart.** The practice stats screen's "Durations" tab is now "Time," with a new "Daily" view showing total minutes per day against your target line — so you can see your daily-minutes trend the same way count practices show daily reps.
+- **"Suggested target" for time goals.** If your reading sessions have settled at ~40 minutes over a few weeks when the goal says 60, a card offers to update the target to match — one tap, either direction (it'll also suggest raising the target if you've grown past it).
+
+### Changed
+- **Goal-oriented timed practices say "Target" instead of "Estimate."** When a practice has a real daily time goal (not just an informational duration like "Laundry ~60 min"), the stats screen now labels it "Target," "Change Target," and marks it "▼ target" on the distribution chart. Practices where the duration is just a rough estimate keep the "Estimate" wording.
 
 ### Added
 - **"In progress" status for multi-log practices.** A "25 pushups daily" practice that you'd done 12 of used to still show a red "Must do" badge — looked like you hadn't done anything when you'd actually done about half. Now it shows a yellow "In progress" badge with "12/25 today" so you can see at a glance where you are.
