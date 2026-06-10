@@ -15,6 +15,7 @@ A record of what's changed in Praxis since launch. Updates ship as over-the-air 
 
 ### Fixed
 - **Backups now include your Areas and Flows.** Since the May update that introduced life Areas, the JSON backup quietly left them out — restoring a backup brought all your practices back, but the areas you'd organized them into (and any Flows you'd built) were missing. Exports now save both. Importing an older backup made before this fix recovers gracefully too: practices are regrouped into their areas automatically, with placeholder names you can rename (the original names weren't saved inside those older files).
+- **Restoring a backup right after "Reset all data" now sticks.** Resetting also cleared some internal bookkeeping, so if you imported a backup immediately afterward, the next launch could quietly reorganize everything back into just Home/Unassigned — undoing the restore. The app now recognizes restored data and leaves it alone.
 
 ## 2026-06-09
 
