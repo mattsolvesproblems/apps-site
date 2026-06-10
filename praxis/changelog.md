@@ -11,6 +11,11 @@ A record of what's changed in Praxis since launch. Updates ship as over-the-air 
 
 ---
 
+## 2026-06-10
+
+### Fixed
+- **Backups now include your Areas and Flows.** Since the May update that introduced life Areas, the JSON backup quietly left them out — restoring a backup brought all your practices back, but the areas you'd organized them into (and any Flows you'd built) were missing. Exports now save both. Importing an older backup made before this fix recovers gracefully too: practices are regrouped into their areas automatically, with placeholder names you can rename (the original names weren't saved inside those older files).
+
 ## 2026-06-09
 
 The "small consistent effort" model now applies to time-based goals, not just rep counts.
