@@ -11,6 +11,16 @@ A record of what's changed in Praxis since launch. Updates ship as over-the-air 
 
 ---
 
+## 2026-08-02
+
+### Added
+- **Your session lengths now read as a smooth shape, not just bars.** The Time tab's distribution chart can draw a curve through your sessions instead of a bar chart — easier to see at a glance where your sessions actually cluster and how long the tail runs. A Curve / Both / Bars toggle sits on the chart and remembers what you picked. Under the curve is a small tick for every session you've logged, so you can always see how much history the shape is built from.
+- **A plain-English read of the chart.** Under the curve: "Most sessions land near 27 min. Half fall between 21 and 35 min. Nine in ten are under 54 min." Those numbers come straight from your own sessions.
+- **The chart declines to draw a shape it can't support.** With only a handful of sessions logged you'll see the individual sessions rather than a confident-looking curve drawn through almost no data — a smooth line looks just as sure of itself at nine sessions as at ninety, and that would be misleading. If you log durations by tapping the round-number chips (5, 10, 15, 20…), the chart shows those exact values as marks instead of pretending to a precision the numbers don't have.
+
+### Fixed
+- **The "previous period" series in Compare mode was grey instead of its own colour.** It was meant to be a clearly distinct colour from the current period, but was quietly falling back to the same muted grey as ordinary text — which also affected the legend swatches and, on shared practices, the bars for other people in the household chart. It now gets its own colour, and stays grey on themes where that colour would be too close to the accent to tell apart.
+
 ## 2026-06-10
 
 ### Fixed

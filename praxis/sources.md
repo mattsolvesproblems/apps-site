@@ -19,6 +19,7 @@ If you find an error here, please email **praxis.app.support@gmail.com**.
 
 ---
 
+<!-- praxis:classical-sources:begin — auto-generated from the Praxis content-studio tool; edit quotes in the tool and re-stage, not here -->
 ## Classical sources
 
 ### Aristotle
@@ -63,6 +64,7 @@ The name *Praxis* and much of the app's framing comes from Aristotle's distincti
 ### Confucius
 
 - **"Learning without thinking is labor lost."** — *Analects* 2.15.
+<!-- praxis:classical-sources:end -->
 
 ---
 
