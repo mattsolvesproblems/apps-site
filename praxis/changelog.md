@@ -11,6 +11,45 @@ A record of what's changed in Praxis since launch. Updates ship as over-the-air 
 
 ---
 
+## {{RELEASE_DATE}} — Praxis 2.0
+
+The biggest update since launch: your practices can now follow you to your iPad, your wrist and your Lock Screen, and be shared with the people you live with. Unlike most updates on this page, this one comes through the App Store, and it needs iOS 17 or later.
+
+### Added
+- **iCloud sync between iPhone and iPad.** Turn on **Sync across devices** in Data & Storage, and your practices, history, areas and Flows stay in step on every device signed in to your Apple ID. It uses your own iCloud account, so there's still no Praxis account and no Praxis server. Sync is part of the one-time unlock; exporting and restoring backups stays free.
+- **Share practices with your household.** Share a life area, a zone, a room or a hand-picked set of practices with people you invite through Apple's iCloud sharing, and everyone logs as usual. Your notes and ratings stay on your own device. Creating a share is part of the unlock; joining one someone sends you is free. Everyone needs Praxis 2.0.
+- **A Household view in Stats.** Once you're in a share, a Household tab shows who has been tending what, and a shared practice's charts can be filtered by person. Keeping a home running together is easier to keep fair when you can see the whole picture, not just your half.
+- **Apple Watch.** The **Praxis Ring** complication shows how today (or this week) is going at a glance. Choose what it tracks and whether partial sessions count, from **Apple Watch** in the menu. Open the watch app to see what's due, log a practice with a tap, dial in a count or minutes with the Digital Crown, and pause, resume or finish a running timer from your wrist.
+- **Praxis on iPad.** It now runs natively on iPad, in any orientation, with layouts sized for the bigger screen.
+- **Live Activities.** A running timer sits on your Lock Screen and in the Dynamic Island, so you can see how long you've been at it without opening the app. It has Pause and Done buttons, which work while Praxis is running in the background.
+- **Nine widgets.** Up Next, Today's Progress, Life Balance, Daily Wisdom, Aura Focus, Aura Pulse, Chart, Quick Log and Command. Up Next, Today's Progress and Daily Wisdom also work on the Lock Screen. **Quick Log** lets you log a due practice with one tap from the Home Screen, **Chart** shows the practices you pick (set it up from **Chart widget** in the menu), and **Command** is a large dashboard for iPad.
+- **Choose the days a practice applies to.** Weekday-only practices wait quietly under **Not today** on the weekend instead of turning overdue. Something you last did on Friday reads as due on Monday, not three days late, because the days off were never meant to count.
+- **Reminders for individual practices.** Turn on a reminder in a practice's details and pick a time. It arrives on the day the practice is due, skips days you've already done it, and tapping it brings that practice to the top of Focus.
+- **An optional next due date.** For things tied to the calendar, like trash day, set the date it's next due and Praxis keeps it on that fixed schedule. Taking the bins out a night early no longer quietly moves trash day.
+- **Background timers: several at once, and pausable.** Laundry, a slow cook and a fast can all run together, each with its own card and Live Activity. Pausing one also holds its "target reached" notification until you resume.
+- **Running timers stay at the top of Focus.** Active practices pin above the list so they're always easy to find, and fold into compact rows as you scroll when several are going.
+- **Swipe a practice on Focus to edit it or open its stats.** Tapping a card used to lead nowhere; now a swipe gets you straight to the two things you most often want.
+- **A Difficulty tab in practice stats.** If you rate sessions, see how they've felt over time, with a period selector to zoom in or out.
+- **The session-length curve reaches everyone.** The smooth distribution curve described in the August 2 entry below is part of 2.0, so App Store users get it now too.
+- **A much bigger, searchable set of practice icons.** About 130 icons in categories like Movement, Mind, Home and Outdoors, with search, so every practice can have an icon that fits.
+- **Set the time of day on sessions you add by hand.** Past entries used to be pinned to noon, which skewed time-of-day patterns. Now you pick when it actually happened.
+- **Counts in completion history.** For practices with a daily count, each logged entry shows how many (for example "12×"), the same way timed sessions show minutes.
+- **Insights keep their history.** New insights are marked **New** and sorted to the top, and earlier ones you haven't dismissed stay in the list instead of disappearing when a fresh batch arrives.
+- **Crash reports can be turned off.** Praxis sends crash and freeze reports, with some basic app-health information, to Sentry so problems can be found and fixed. They never include your practices, notes or ratings. If you'd rather not send them, open the menu, then **Settings → Send crash reports**. The choice applies to the device you change it on.
+- **Tap the tab you're on to scroll back to the top.** Works on all five tabs, the way most iPhone apps do.
+
+### Changed
+- **The unlock now includes iCloud sync and creating shares.** The free version still includes up to 5 practices, 2 life areas, 4 rooms, 2 zones and 1 Flow, along with widgets, the watch app, Live Activities, insight cards and backups. The one-time unlock still removes those limits and includes Lumen, and now adds iCloud sync and creating shares. Still no subscription.
+- **The Practices tab is now a plain management list.** Status colors live on Focus, where you decide what to do today. Practices is where you set things up, so its rows show each practice's name, place and schedule without urgency color. Swipe to delete still works.
+- **Logging a practice with a daily count now starts at 1.** In the spring the completion dialog began defaulting to your full daily target, which over-logged single sessions: one set of pushups could read as the whole day. It now starts at 1, with a box for a larger batch.
+- **Rooms belong to a life area.** The layout is now life area, then an optional zone, then room, and adding a room asks which area it's in. That keeps every room findable when you pick a place for a practice.
+- **Praxis 2.0 needs iOS 17 or later.** iOS 17 is what lets widgets and Live Activities have buttons, so everyone on 2.0 gets one-tap Quick Log and the Pause and Done buttons on a running timer. The iPhone 8, iPhone 8 Plus and iPhone X, the iPad (5th generation), and the 9.7-inch and first 12.9-inch iPad Pro can't update to iOS 17. If you already have Praxis on one of them, you keep Praxis 1.5 as it is, but Praxis can no longer be newly installed there.
+
+### Fixed
+- **Unlock and Restore recover if the App Store was unreachable at launch.** If Praxis couldn't reach the App Store when it opened, tapping Unlock or Restore used to fail until you restarted the app. Now it tries again when you tap. Backing out of the purchase sheet no longer shows an error, and the unlock screen no longer shows an empty price when the price couldn't load.
+- **Cancelling Lumen's download no longer leaves it stuck.** Cancelling partway through could make Praxis think the model was already there, so Lumen showed a loading error until you reset it. A cancelled download is now cleaned up, and the next one starts fresh.
+- **Rooms without a zone could go missing from the room picker.** A room saved without a zone wasn't connected to any life area, so it never showed up when choosing a room for a practice. Rooms now carry their area directly, and older rooms with neither an area nor a zone appear under every area, so nothing is stranded.
+
 ## 2026-08-02
 
 ### Added
