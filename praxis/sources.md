@@ -119,9 +119,9 @@ The name *Praxis* and much of the app's framing comes from Aristotle's distincti
 - **Expense tracking and overspending** — The general principle that tracking spending reduces overspending through awareness effects is well-supported in behavioral finance literature. For consumer-facing tools and guidance, see the CFPB's [Track your spending blog post](https://www.consumerfinance.gov/about-us/blog/track-your-spending-with-this-easy-tool/) and [Spending tracker worksheet (PDF)](https://files.consumerfinance.gov/f/documents/cfpb_your-money-your-goals_spending_tracker_2018-11_ADA.pdf). For the broader research foundation on self-control and beneficial habits, see Galla & Duckworth (2015), [*"More than resisting temptation: Beneficial habits mediate the relationship between self-control and positive life outcomes"*](https://pubmed.ncbi.nlm.nih.gov/25643222/), Journal of Personality and Social Psychology 109(3), 508–525.
 - **Budget review** — Consumer Financial Protection Bureau. [Budgeting: How to create a budget and stick with it](https://www.consumerfinance.gov/about-us/blog/budgeting-how-to-create-a-budget-and-stick-with-it/)
 
-### Stoic concepts in Lumen's prompt
+### Stoic concepts behind Praxis
 
-The on-device AI inside Praxis (Lumen) is built around several Stoic concepts:
+Praxis's idea of practice draws on several Stoic concepts. In Praxis 1.5 and earlier, they also shaped Lumen, the optional on-device assistant those versions include.
 
 - **Prosochē** (προσοχή — attention, mindfulness) — Epictetus, *Discourses* throughout.
 - **Askēsis** (ἄσκησις — practice, training) — see Pierre Hadot, *Philosophy as a Way of Life* (1995) for the canonical modern treatment.

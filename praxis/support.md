@@ -15,12 +15,10 @@ Some older devices can't update to iOS 17: iPhone 8, iPhone 8 Plus, iPhone X, iP
 
 ## What you'll find here
 
-- [Core concepts](#core-concepts): practices, cadence, scoring, and how the app organizes your life
+- [Core concepts](#core-concepts): practices, cadence, scoring, colors, and how the app organizes your life
 - [Flows](#flows): chained practices that advance through a routine
 - [Links](#links): scheduling constraints between practices
-- [Lumen](#lumen): the on-device AI that explains your patterns
 - [iCloud sync](#icloud-sync): keeping your iPhone and iPad in step
-- [Sharing](#sharing): practices you keep up together with other people
 - [Apple Watch, widgets and Live Activities](#apple-watch-widgets-and-live-activities)
 - [iPad](#ipad)
 - [Common questions](#common-questions): quick answers to the things people ask most
@@ -91,18 +89,26 @@ Manage them from the **Areas** tab: **+ Life Area**, **+ Room**, and **Zones**. 
 
 The framing comes from a simple observation: your life has shape. The kitchen is different from the home office, and a Tuesday morning is different from a Saturday afternoon. Praxis lets you reflect that shape in how you track yourself.
 
+### Colors
+
+Each color in Praxis has one job:
+
+- **Your theme's color shows today's progress.** The ring you see after logging a practice fills toward today's total: the practices due today or overdue, plus what you've done today. The Focus header, the Today's Progress widget and the Apple Watch ring all count today the same way. An unfinished ring stays that calm color, never red, and each day starts fresh.
+- **Green, yellow, orange and red describe one practice's rhythm:** on track, due soon, overdue or very overdue (see [Scoring](#scoring-where-each-practice-stands)). Focus cards also say it in words, such as "Overdue" or "12/20 today".
+- **Area and type colors group things.** Each life area and practice type keeps its own color, shown next to its name, on the Focus filter chips and in Stats. A practice uses its area's color, and Home has one of its own.
+
+To choose a color, open the **Areas** tab and tap **Edit** on an area, or open a practice and tap **Type settings** under **Practice Type**. Pick one of eight colors, or leave it on **Auto**, which picks a calm color for you and keeps it when you add or reorder areas.
+
 ### Insights: what Praxis notices
 
-Praxis runs a set of pattern detectors over your completion history. Things like:
+Once a week, Praxis looks for patterns in your completion history, on your device. Things like:
 
 - *You tend to do A and B on the same day.*
 - *Your sessions of this practice have been getting longer.*
 - *One life area has been quiet for three weeks or more.*
 - *You've settled at a different daily count than your target, so maybe update the target.*
 
-Insights appear in **Stats → Insights**, and as a badge on **Lumen** in the menu. New ones are marked **New**, and earlier ones stay in your history. They run entirely on your device, and they only appear when there's enough data to be confident. The insight cards are free.
-
-You can ask Lumen to explain any insight in more depth (see [Lumen](#lumen) below).
+Insights appear in **Stats → Insights**. New ones are marked **New**, and earlier ones stay in your history. They only appear when there's enough data to be confident: most need 6 to 8 sessions of a practice. They describe your own rhythm in plain numbers, with no grades and no streaks. When a target and your actual rhythm have drifted apart, a card suggests a target closer to how you really practice, which you can change again any time. The insight cards are free.
 
 ---
 
@@ -167,52 +173,6 @@ You don't have to use links. Most practices don't need them. But when two practi
 
 ---
 
-## Lumen
-
-**Lumen** is Praxis's on-device AI. It runs a small language model directly on your iPhone or iPad, with no servers, no account, and no data leaving your device.
-
-Open the menu → **Lumen**. Lumen is part of the one-time unlock.
-
-### What Lumen is good at
-
-Lumen's role is **explanation**, not data lookup. The app already knows your numbers: what's on track, what's slipping, when you last did each practice. Lumen helps you make sense of those numbers in plain language.
-
-You talk to Lumen by tapping a prompt:
-
-- **Explain my insights**: pick a pattern Praxis has noticed and Lumen explains what it means in your situation, with concrete suggestions. (This appears when you have insights.)
-- **Tell me about a practice**: pick a practice and Lumen reflects on how it's going. What's working, what's not, what to consider.
-- **What did I do recently?**: a summary of what you've done lately. Deterministic, no AI involved, just a clean readout.
-- **What's slipping?**: practices that have fallen behind, ordered by urgency. Practices you're still doing, just below target, are listed separately. Also deterministic.
-- **What is Praxis?**: Lumen explains the philosophy behind the app and the idea of practice itself.
-
-You can also open Lumen from an insight or a practice's stats to get an explanation of just that one thing.
-
-### Why on-device
-
-A few reasons:
-
-1. **Your data never leaves your device.** No "AI server" sees your habits, your reflections, or your completion history. The model runs locally.
-2. **It works offline.** On a plane, in a basement, with your Wi-Fi out, Lumen still works.
-3. **No subscription.** Lumen comes with the one-time unlock. There's no recurring cost for AI features the way there is in most apps.
-
-The trade-off is that the model is small (about 1.9 GB) and not as fluent as the big cloud chatbots. It's accurate when explaining your data, but it's not a general-purpose chatbot. That's the deliberate design: Lumen is a coach for your practice, not a search engine.
-
-### What Lumen can't do (yet)
-
-- There's no free-text chat. The prompts cover the most useful questions with much more reliable answers than open-ended chat gets from a model this size. Free chat may return once a larger on-device model becomes practical.
-- It can't do calculations beyond what Praxis already computes. If you need a number, look in Stats.
-- It can't browse the web, send messages, or do anything outside the app. It only sees what you've put into Praxis.
-
-### Downloading the model
-
-The first time you open Lumen, you'll be asked to download the model: **Download Llama 3.2 3B (~1.9 GB)**. It's a one-time download from Hugging Face. Wi-Fi is a good idea. If you cancel, the download starts over next time. The first time Lumen loads, getting ready can take 30 to 90 seconds; after that, responses are quicker. Once downloaded, Lumen is always available offline.
-
-### Built with Llama
-
-Lumen is built with Llama. Llama 3.2 is licensed under the Llama 3.2 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved. The same notice and a link to the license are also on the **About Praxis** screen, in the app's menu. [Read the Llama 3.2 Community License ↗](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE)
-
----
-
 ## iCloud sync
 
 iCloud sync keeps your practices in step between your iPhone and iPad. It uses your own iCloud account. There's still no Praxis account and no Praxis server.
@@ -223,7 +183,7 @@ Open the menu → **Data & Storage** → **iCloud Sync** → turn on **Sync acro
 
 Sync is part of the one-time unlock. If you haven't unlocked yet, the switch opens the unlock screen first, and afterwards Praxis asks whether you'd like to turn sync on.
 
-What syncs: your practices and completion history (including notes and ratings), life areas, zones, rooms, practice types, links, and Flows. Settings and themes stay separate on each device.
+What syncs: your practices and completion history (including notes and ratings), life areas, zones, rooms and practice types (with any colors you picked), links, and Flows. Settings and themes stay separate on each device.
 
 ### What it needs
 
@@ -246,55 +206,9 @@ Turning off **Sync across devices** stops syncing. The device keeps all of its d
 To remove your Praxis data from iCloud completely:
 
 1. Turn off **Sync across devices** on every device first, or another device will upload it again.
-2. If you share practices, stop sharing or leave each share first, from **Sharing** below.
-3. On your iPhone or iPad, go to **Settings → [your name] → iCloud → Manage Account Storage** (called **Storage** on some iOS versions) → **Praxis**, and delete its data. Deleting the file in the Files app (**iCloud Drive → Praxis**) removes only that file, not the rest of your Praxis data in iCloud, so use Settings for a full delete.
+2. On your iPhone or iPad, go to **Settings → [your name] → iCloud → Manage Account Storage** (called **Storage** on some iOS versions) → **Praxis**, and delete its data. Deleting the file in the Files app (**iCloud Drive → Praxis**) removes only that file, not the rest of your Praxis data in iCloud, so use Settings for a full delete.
 
 **Reset All Data** in Data & Storage erases Praxis on that device only. It turns sync off first so an empty library can't overwrite your other devices, and it leaves your iCloud copy alone.
-
----
-
-## Sharing
-
-Sharing lets you keep practices up together with other people: a household's cleaning, a shared garden, a family's routines. Each person uses their own Apple ID, and everyone logs as usual.
-
-Open the menu → **Data & Storage** → **Sharing**.
-
-### Sharing something
-
-1. Tap **Share practices…** and choose **A whole area**, **A zone**, **A room**, or **Pick practices**.
-2. Choose what to share, then tap **Create share**.
-3. Tap **Invite people**. Apple's sharing sheet opens, so you can send the invitation by Messages, Mail, or however you like. You can invite more people later from the same screen.
-
-Creating a share is part of the one-time unlock. **Joining** a share someone sends you is free, and doesn't require iCloud sync to be turned on.
-
-A practice can only be in one share at a time. The catch-all **Unassigned** area can't be shared.
-
-### Joining a share
-
-Tap the invitation on an iPhone or iPad with Praxis 2.0 installed. The share appears under **Shared with you**, and its practices show up alongside your own.
-
-### What other people see
-
-Everyone in a share can see and log the shared practices, including their names, targets, completion dates and times, durations, and counts. They also see the names of the area, zone, and room those practices live in, and the names of the other people in the share, as Apple provides them from each person's Apple ID.
-
-**Your notes and ratings are not shared.** They stay on the device where you wrote them.
-
-Once you're in a share, **Stats** gains a **Household** tab showing who has been tending what, and a shared practice's charts can be filtered by person.
-
-### Stopping or leaving
-
-In **Sharing**, tap the stop button next to something under **Shared by you** to stop sharing it. The people you invited lose access, and your practices and history stay on your device. To leave something under **Shared with you**, tap the leave button. You stop receiving updates, and the practices you've logged stay on your device.
-
-Stopping a share can't reach into other people's devices, so they may keep copies of what had already synced to them.
-
-While you're sharing anything, **Restore Backup** is blocked, because restoring replaces all of your data. Stop sharing or leave first, then restore.
-
-### What it needs
-
-- Everyone on **Praxis 2.0 or later**, on **iOS or iPadOS 17 or later**
-- Everyone signed in to iCloud
-
-Someone still on an earlier version of Praxis can't join until they update, and an iPhone or iPad that can't install 2.0 can't join at all.
 
 ---
 
@@ -313,14 +227,18 @@ Choose what it shows from the menu on your iPhone → **Apple Watch**:
 - **What the ring tracks**: all practices, or the ones you pick
 - **List style** and **Ring name**
 
+"Today" on the ring counts the same way as the Focus header and the Today's Progress widget: the practices due today or overdue, plus the ones you've done today. If the ring tracks a single area or type, it takes that area's or type's color.
+
 ### The watch app
 
 Install Praxis on your watch from the Watch app on your iPhone. Tap the complication or open Praxis on your wrist to see:
 
 - **Active**: timers running on your phone, with **Pause**/**Resume** and **Done** buttons
-- **Today**: practices due today or overdue. Tap one to log it. Practices with a count or minutes goal open a quick entry you can adjust with the Digital Crown.
+- **Today**: the practices the ring tracks that are due today or overdue, then the ones you've already done today, with a green check. Tap one to log it. Practices with a count or minutes goal open a quick entry you can adjust with the Digital Crown. Each row has the same status color as on your iPhone's Focus screen.
 
-Your iPhone does the thinking. The watch shows what the phone last sent it, and things you log on the watch are recorded by Praxis on your iPhone, so they can take a moment to appear there. If the watch says *"Open Praxis on your iPhone to feed the ring,"* do exactly that.
+The watch lists only today's plate. A practice the ring doesn't track, or one that isn't due yet (and hasn't been done today), doesn't apply on this day of the week, or is out of season, isn't there. **Apple Watch** in the Praxis menu on your iPhone says how many practices are on your watch, and how many of the practices the ring tracks it leaves off, and why. The list holds up to 100 practices; if there are ever more than fit, it ends with *"+N more on your iPhone."*
+
+Your iPhone does the thinking. The watch shows what the phone last sent it, and things you log on the watch are recorded by Praxis on your iPhone, so they can take a moment to appear there. If the watch says *"Open Praxis on your iPhone to feed the ring,"* do exactly that. After midnight, until Praxis has opened on your iPhone, the watch shows **New day** instead of yesterday's list. Open Praxis on your iPhone and today's list arrives.
 
 **If Praxis won't install on your watch, or the ring stops updating.** Occasionally watchOS gets stuck installing or updating an app. It shows as "Installing" in the Watch app on your iPhone, and the ring freezes because the iPhone stops sending to a watch app it thinks is missing. **Apple Watch** in the Praxis menu will say Praxis isn't installed on your watch. To clear it:
 
@@ -362,7 +280,7 @@ To stop Live Activities, go to iOS **Settings → Praxis → Live Activities**.
 
 ## iPad
 
-Praxis runs natively on iPad, in any orientation, with layouts sized for the larger screen. It has the same practices, charts, timers and settings as on iPhone.
+Praxis runs natively on iPad, in any orientation. It has the same practices, charts, timers and settings as on iPhone.
 
 To use the same practices on both, turn on [iCloud sync](#icloud-sync) on each. The **Command** widget is iPad-only. Apple Watch pairs with iPhone, so the watch app and complication get their data from your iPhone.
 
@@ -378,20 +296,24 @@ To restore later: same menu → **Restore Backup** → pick the JSON file. Resto
 
 If you use more than one device, [iCloud sync](#icloud-sync) keeps a copy in your iCloud too. It's still worth exporting a backup now and then.
 
-### What is Lumen, and where does it run?
+### What happened to Lumen?
 
-Lumen is the on-device AI inside Praxis. It looks at your practice data and writes plain-language observations: what's holding, what's slipping, what works well together. It runs entirely on your device. No servers, no account, no data sharing. See the [Privacy Policy](privacy) for the full picture.
+Lumen, the optional on-device assistant in Praxis 1.5 and earlier, has been retired in Praxis 2.0. The insight cards stay, and they're free: find them in **Stats → Insights**. If you had downloaded Lumen's model, updating to 2.0 deletes it and gives you back about 1.9 GB of storage, and Praxis shows a short note once to say so. Your practices, history and notes aren't touched.
+
+If you're still on Praxis 1.5, for example on a device that can't update to iOS 17, Lumen keeps working there as before. Lumen is built with Llama. Llama 3.2 is licensed under the Llama 3.2 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved. [Read the Llama 3.2 Community License ↗](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE)
+
+### Can I share practices with my household?
+
+Not yet. Sharing practices with the people you live with is coming in a future update.
 
 ### What's free, and what does the unlock include?
 
-Praxis is free to download, and the free version isn't a trial. It includes up to **5 practices, 2 life areas, 4 rooms, 2 zones, and 1 Flow**, plus widgets, the Apple Watch app, Live Activities, insight cards, backups, and joining a share someone sends you. Sample data doesn't count toward those limits.
+Praxis is free to download, and the free version isn't a trial. It includes up to **5 practices, 2 life areas, 4 rooms, 2 zones, and 1 Flow**, plus widgets, the Apple Watch app, Live Activities, insight cards and backups. Sample data doesn't count toward those limits.
 
 A **one-time purchase** ($9.99 in the US; the price varies by country) unlocks:
 
 - Unlimited practices, areas, rooms, zones, and Flows
-- **Lumen**
 - **iCloud sync** between your devices
-- **Creating shares** with other people
 - Editing the sample practices
 
 No subscription, no recurring charges. Open the menu → **Unlock Praxis**. If you already had more than the free limits before they were introduced, you keep everything; the limits only apply when adding more.
@@ -402,7 +324,7 @@ Open the menu → **Unlock Praxis** → **Restore previous purchase**. Make sure
 
 ### How do I change or turn off the daily notification?
 
-Open the menu → **Settings** → **Notifications from Lumen**. Turn **Daily check-in** off, or change the reminder time. Reminders for individual practices are in each practice's details, under **Reminder**.
+Open the menu → **Settings** → **Notifications**. Turn **Daily check-in** off, or change its **Reminder time**. Reminders for individual practices are in each practice's details, under **Reminder**.
 
 ### How do I delete a practice or a logged session?
 
@@ -410,7 +332,7 @@ Open the menu → **Settings** → **Notifications from Lumen**. Turn **Daily ch
 
 **Logged session:** in the **Practices** tab, tap the practice, switch to its **History** tab, and tap **✕** next to the entry. Tap **Edit** instead to fix a date, time, duration, or count. **+ Add Entry** logs a past session by hand.
 
-With iCloud sync or sharing on, deletions carry over to your other devices and to the people you share with.
+With iCloud sync on, deletions carry over to your other devices.
 
 ## Common workflows
 
@@ -446,11 +368,11 @@ Common ones:
 
 Most practices don't need a link. Use them when the dependency is obvious.
 
-### Understand what's slipping
+### See what needs you, and why
 
-Focus already puts the practices that need you most at the top. For a plain list, open Lumen → **What's slipping?**. You'll get the practices that have fallen behind, ordered by how overdue they are. No AI involved, just a clean readout from the rule-based scoring.
+Focus already puts the practices that need you most at the top, the most overdue first within each group.
 
-If you want to know *why* a particular practice is slipping (was it always this way, or did it change recently?), swipe it on Focus → **Stats** and look at the gaps between sessions over time. The pattern is usually obvious once you can see the timeline.
+If you want to know *why* a practice keeps running past its target (was it always this way, or did it change recently?), swipe it on Focus → **Stats** and look at the gaps between sessions over time. The pattern is usually obvious once you can see the timeline. If the target itself no longer fits your life, change it; an insight card may already have suggested one.
 
 ### Plan a realistic week
 
@@ -467,7 +389,7 @@ If something doesn't work right, or you have an idea for what Praxis should do b
 - What you were trying to do
 - What happened instead
 - Your device model and iOS version (Settings → General → About), and your watchOS version if it's about the watch
-- Whether iCloud sync or sharing is turned on, if it's about sync
+- Whether iCloud sync is turned on, if it's about sync
 
 Screenshots help.
 
@@ -477,7 +399,7 @@ Refunds for the Praxis in-app purchase are handled by Apple, not by me. Open the
 
 ## Privacy
 
-See the full [Privacy Policy](privacy) for details on what Praxis stores and where. Short version: there's no Praxis account and no Praxis server. Your practices stay on your devices, and in your own iCloud if you turn on sync or sharing. Lumen runs on your device. Crash and freeze reports go to Sentry to help fix bugs, and they never include your practice content. You can turn them off in Praxis: open the menu, then **Settings → Send crash reports**.
+See the full [Privacy Policy](privacy) for details on what Praxis stores and where. Short version: there's no Praxis account and no Praxis server. Your practices stay on your devices, and in your own iCloud if you turn on sync. Crash and freeze reports go to Sentry to help fix bugs, and they never include your practice content. You can turn them off in Praxis: open the menu, tap **Settings**, and turn off **Send crash reports** under **Privacy**.
 
 ## Contact
 
